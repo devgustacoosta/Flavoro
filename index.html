@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/Favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div id="myNav" class="overlay">
+            <div class="overlay-content">
+                <div class="overlay__titulo">
+                    <h3>Category </h3>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+                <a href="index.html" class="cabecalho__navegacao__link">Home</a>
+                <a href="about-us.html" class="cabecalho__navegacao__link">About Us</a>
+                <a href="contact-us.html" class="cabecalho__navegacao__link">Contact Us</a>
+            </div>
+        </div>
+        <span class="icone-menu" onclick="openNav()"><ion-icon name="menu"></ion-icon></span>
+        <img class="cabecalho__logo" src="assets/img/header_logo.png" alt="Logo Flavoro Organic Store">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li><a class="cabecalho__navegacao__link" href="index.html">Home</a></li>
+                <li><a class="cabecalho__navegacao__link" href="about-us.html">About Us</a></li>
+                <li>
+                    <a class="cabecalho__navegacao__link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="settings-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+            <ion-icon name="bag-outline"></ion-icon>
+        </div>
+    </header>
+    <main>
+        <section class="slides">
+            <div class="swiper swiper-principal">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/img/s1.jpg" alt="Organic Fresh Fruits For Your Health">
+                    </div>
+                    <div class="swiper-slide"><img src="./assets/img/s2.jpg" alt="Fresh Fruits Juice"></div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+        <section class="promocoes  animate__animated animate__fadeInUp __web-inspector-hide-shortcut__"
+            data-wow-duration="0.8s" data-wow-delay="0.4s">
+            <h3>Add Featured Products</h3>
+            <h2>Deal Of The Day</h2>
+            <div class="divisor__elementos">
+                <hr>
+                <img src="./assets/img/title_img.png" alt="Divisor">
+                <hr>
+            </div>
+
+            <div class="promocoes__ofertas">
+                <img src="/assets/img/product_2.jpg" alt="Imagem da Fruta">
+                <div class="promocoes__ofertas__descricao">
+                    <p class="promocoes__ofertas__descricao__categoria">
+                        Fresh Fruit, Vegetables
+                    </p>
+                    <p class="promocoes__ofertas__descricao__titulo">
+                        Vegetable And Fruit - Thai, 300 Gm
+                    </p>
+                    <p class="promocoes__ofertas__descricao__valor">
+                        $25.00 <span>$32.00</span>
+                    </p>
+                    <p class="promocoes__ofertas__descricao__tempo">
+
+                    </p>
+                </div>
+            </div>
+           
+               
+
+            <div class="promocoes__novidade">
+                <img src="./assets/img/banr1.jpg" alt="Summer Fresh Fruit Juice">
+                <img src="./assets/img/banr2.jpg" alt="New season Fresh Fruits">
+            </div>
+        </section>
+        <section class="natural-products">
+            <h3>
+                Natural Product
+            </h3>
+            <h2>SAVE 40% OFF</h2>
+            <a href="index.html">Shop Now</a>
+        </section>
+        <section class="servico">
+            <div class="servicos__container">
+                <div class="servicos__info">
+                    <img src="./assets/img/support.png" alt="" class="servicos__img">
+                    <div class="servicos__descricao">
+                        <h2>24/7 Free Support</h2>
+                        <p>Passage of Lorem Ipsum, you need tobe amet embarrassing.</p>
+                    </div>
+                </div>
+                <div class="servicos__info">
+                    <img src="./assets/img/truck.png" alt="" class="servicos__img">
+                    <div class="servicos__descricao">
+                        <h2>Secure Payment</h2>
+                        <p>Passage of Lorem Ipsum, you need tobe amet embarrassing.</p>
+                    </div>
+                </div>
+                <div class="servicos__info">
+                    <img src="./assets/img/money.png" alt="" class="servicos__img">
+                    <div class="servicos__descricao">
+                        <h2>Special Gift Cards</h2>
+                        <p>Passage of Lorem Ipsum, you need tobe amet embarrassing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+        integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+
+</body>
+
+</html>

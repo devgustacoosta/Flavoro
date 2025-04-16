@@ -1,0 +1,11 @@
+{
+    "produtos": {
+        "id": 1,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Kitchen Spices - freash and healthy", 
+        "preco": "$30.00",
+        "preco-promocional": "$23.00",
+        "imagem-principal": "./assets/img/product_2.jpg",
+        "imagem-secundaria": "./assets/img/product_3.jpg"
+    }
+}

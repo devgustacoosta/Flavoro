@@ -1,0 +1,150 @@
+.cabecalho {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    padding: 24px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    height: 85%;
+    width: auto;
+    cursor: pointer;
+}
+
+
+.cabecalho__navegacao ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.cabecalho__navegacao__link {
+    color: var(--cor-texto-principal);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 27px;
+}
+
+.icone-menu {
+    font-size: 35px;
+}
+
+.cabecalho__navegacao__link:hover,
+.menu ion-icon:hover {
+    color: var(--cor-verde);
+    cursor: pointer;
+}
+
+.icone-menu {
+    display: none;
+}
+
+.overlay {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.562);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 280px;
+    height: 100%;
+    gap: 0.5em;
+}
+
+.overlay__titulo {
+    background-color: black;
+    padding: 0.7em 1em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.overlay__titulo h3 {
+    color: var(--cor-branco);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay .closebtn {
+    color: var(--cor-branco);
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.overlay a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: none;
+    color: var(--cor-texto-principal);
+    transition: 0.3s;
+    padding: 0.5em;
+    margin: 0 0.5em;
+    border-bottom: 1px solid var(--cor-cinza-claro);
+}
+
+.overlay__titulo a {
+    border: none;
+    font-weight: bolder;
+}
+
+
+.overlay a:hover,
+.overlay a:focus {
+    color: var(--cor-verde);
+}
+
+@media (max-width: 1024px) {
+    .cabecalho {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 1em;
+        padding: 10px;
+    }
+
+    .icone-menu,
+    .overlay {
+        display: block;
+    }
+
+    .cabecalho__navegacao {
+        display: none;
+    }
+
+
+    .container__menu:checked~.cabecalho__navegacao {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: fixed;
+        top: 0;
+        gap: 15px;
+        height: 74px;
+        width: 100%;
+    }
+
+}

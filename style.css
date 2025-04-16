@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@import url('./styles/cabecalho.css');
+@import url('./styles/slide.css');
+@import url('./styles/promocoes.css');
+@import url('./styles/natural-product.css');
+@import url('./styles/servicos.css');
+
+:root {
+    --cor-texto-principal: #212529;
+    --cor-texto-secundaria: #6c757d;
+    --cor-texto-terciaria: #6c757d3d;
+    --cor-branco: #ffffff;
+    --cor-cinza-claro: #a5a5a5;
+    --cor-verde: #6d9900;
+    --fonte-texto: "Cairo", sans-serif;
+}
+
+body {
+    background-color: var(--cor-branco);
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    color: var(--cor-texto-principal);
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1rem;
+    color: var(--cor-texto-secundaria);
+    margin-bottom: 5px;
+}
+
+.divisor__elementos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 1em;
+}
+
+.divisor__elementos hr {
+    background-color: var(--cor-texto-terciaria);
+    border: none;
+    height: 1px;
+    width: 40px;
+}
