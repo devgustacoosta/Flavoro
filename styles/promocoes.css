@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 3em 1em;
+    gap: 1.5em;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
@@ -41,12 +42,30 @@
     border-radius: 15px;
 }
 
+.imgSecundaria {
+    display: none;
+}
+
+.promocoes__ofertas:hover .imgSecundaria{
+    display: block;
+}
+
+.promocoes__ofertas:hover .imgPrimaria{
+    display: none;
+}
+
+.promocoes__ofertas:hover .promocoes__ofertas__descricao__titulo{
+    color: var(--cor-verde);
+    transition: 0.4s ease;
+}
+
 .promocoes__ofertas__descricao{
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
     gap: 0.5em;
-    align-items: left;
-    justify-content: initial;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .promocoes__ofertas__descricao__categoria {
@@ -59,6 +78,9 @@
     font-weight: 600;
     text-overflow: ellipsis;
     white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    max-width: 300px;
 }
 
 .promocoes__ofertas__descricao__valor {
@@ -74,6 +96,9 @@
     font-weight: 400;
 }
 
+.swiper-promocoes {
+    width: 90%;
+}
 
 
 @media (max-width: 600px) {

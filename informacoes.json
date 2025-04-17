@@ -1,11 +1,146 @@
-{
-    "produtos": {
+[
+    {
         "id": 1,
         "categoria": "Fresh Fruit, Vegetables",
-        "nome": "Kitchen Spices - freash and healthy", 
+        "nome": "Kitchen Spices - freash and healthy",
         "preco": "$30.00",
-        "preco-promocional": "$23.00",
-        "imagem-principal": "./assets/img/product_2.jpg",
-        "imagem-secundaria": "./assets/img/product_3.jpg"
+        "precoPromocional": "$23.00",
+        "imagemPrincipal": "../assets/img/product_2.jpg",
+        "imagemSecundaria": "./assets/img/product_3.jpg"
+    },
+    {
+        "id": 2,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Organic Apples - sweet and juicy",
+        "preco": "$25.00",
+        "precoPromocional": "$19.00",
+        "imagemPrincipal": "./assets/img/product_4.jpg",
+        "imagemSecundaria": "./assets/img/product_5.jpg"
+    },
+    {
+        "id": 3,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Fresh Strawberries - natural delight",
+        "preco": "$22.00",
+        "precoPromocional": "$17.00",
+        "imagemPrincipal": "./assets/img/product_6.jpg",
+        "imagemSecundaria": "./assets/img/product_7.jpg"
+    },
+    {
+        "id": 4,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Green Grapes - seedless and sweet",
+        "preco": "$28.00",
+        "precoPromocional": "$21.00",
+        "imagemPrincipal": "./assets/img/product_8.jpg",
+        "imagemSecundaria": "./assets/img/product_9.jpg"
+    },
+    {
+        "id": 5,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Ripe Bananas - perfect for smoothies",
+        "preco": "$18.00",
+        "precoPromocional": "$14.00",
+        "imagemPrincipal": "./assets/img/product_10.jpg",
+        "imagemSecundaria": "./assets/img/product_11.jpg"
+    },
+    {
+        "id": 6,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Carrots - crunchy and sweet",
+        "preco": "$20.00",
+        "precoPromocional": "$15.00",
+        "imagemPrincipal": "./assets/img/product_12.jpg",
+        "imagemSecundaria": "./assets/img/product_13.jpg"
+    },
+    {
+        "id": 7,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Broccoli - green and healthy",
+        "preco": "$24.00",
+        "precoPromocional": "$19.00",
+        "imagemPrincipal": "./assets/img/product_14.jpg",
+        "imagemSecundaria": "./assets/img/product_15.jpg"
+    },
+    {
+        "id": 8,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Cherry Tomatoes - fresh and tangy",
+        "preco": "$27.00",
+        "precoPromocional": "$22.00",
+        "imagemPrincipal": "./assets/img/product_16.jpg",
+        "imagemSecundaria": "./assets/img/product_17.jpg"
+    },
+    {
+        "id": 9,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Lettuce - crisp and green",
+        "preco": "$16.00",
+        "precoPromocional": "$12.00",
+        "imagemPrincipal": "./assets/img/product_18.jpg",
+        "imagemSecundaria": "./assets/img/product_19.jpg"
+    },
+    {
+        "id": 10,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Spinach - rich in iron",
+        "preco": "$21.00",
+        "precoPromocional": "$17.00",
+        "imagemPrincipal": "./assets/img/product_20.jpg",
+        "imagemSecundaria": "./assets/img/product_21.jpg"
+    },
+    {
+        "id": 11,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Oranges - full of vitamin C",
+        "preco": "$26.00",
+        "precoPromocional": "$20.00",
+        "imagemPrincipal": "./assets/img/product_22.jpg",
+        "imagemSecundaria": "./assets/img/product_23.jpg"
+    },
+    {
+        "id": 12,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Zucchini - fresh and tender",
+        "preco": "$23.00",
+        "precoPromocional": "$18.00",
+        "imagemPrincipal": "./assets/img/product_24.jpg",
+        "imagemSecundaria": "./assets/img/product_25.jpg"
+    },
+    {
+        "id": 13,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Red Onions - flavorful and fresh",
+        "preco": "$19.00",
+        "precoPromocional": "$15.00",
+        "imagemPrincipal": "./assets/img/product_26.jpg",
+        "imagemSecundaria": "./assets/img/product_27.jpg"
+    },
+    {
+        "id": 14,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Blueberries - sweet and antioxidant",
+        "preco": "$29.00",
+        "precoPromocional": "$23.00",
+        "imagemPrincipal": "./assets/img/product_28.jpg",
+        "imagemSecundaria": "./assets/img/product_29.jpg"
+    },
+    {
+        "id": 15,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Avocados - creamy and nutritious",
+        "preco": "$32.00",
+        "precoPromocional": "$26.00",
+        "imagemPrincipal": "./assets/img/product_30.jpg",
+        "imagemSecundaria": "./assets/img/product_31.jpg"
+    },
+    {
+        "id": 16,
+        "categoria": "Fresh Fruit, Vegetables",
+        "nome": "Limes - zesty and fresh",
+        "preco": "$17.00",
+        "precoPromocional": "$13.00",
+        "imagemPrincipal": "./assets/img/product_32.jpg",
+        "imagemSecundaria": "./assets/img/product_31.jpg"
     }
-}
+]

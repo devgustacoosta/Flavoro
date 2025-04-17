@@ -99,7 +99,8 @@
 .overlay a {
     text-decoration: none;
     font-size: 18px;
-    font-weight: none;
+    font-weight: 600;
+    text-transform: uppercase;
     color: var(--cor-texto-principal);
     transition: 0.3s;
     padding: 0.5em;

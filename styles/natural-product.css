@@ -1,13 +1,15 @@
 .natural-products {
     background: url('../assets/img/big-bnr.jpg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     gap: 5px;
     padding: 28vh 5vw;
     color: var(--cor-branco);
+    position: relative;
 }
+
 
 .natural-products h3 {
     color: var(--cor-branco);
